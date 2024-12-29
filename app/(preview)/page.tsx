@@ -129,16 +129,12 @@ Unlock the awards you deserve, for the work you❜ve already done. {"\n"} Develo
                           onClick={clearPDF}
                           className="bg-primary hover:bg-primary/90 w-full"
                       >
-                          Try Another PDF
+                          Try Another Portfolio!
                       </Button>
                   </CardFooter>
                </main>
            </div>
-                <motion.div
-                  className="fixed bottom-6 text-xs text-center w-full"
-              >
-                  Developed by <Link href="https://linktr.ee/ftc22012">FTC 22012</Link>
-               </motion.div>
+               
          </>
       )
   }
