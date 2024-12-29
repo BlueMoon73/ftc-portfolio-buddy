@@ -1,6 +1,6 @@
 # FTC Portfolio Buddy
 
-Your team's hard work, unlocking the awards you've earned.
+Unlock the awards you deserve, for the work you❜ve already done. 
 
 Developed by [FTC 22012](https://linktr.ee/ftc22012)
 
