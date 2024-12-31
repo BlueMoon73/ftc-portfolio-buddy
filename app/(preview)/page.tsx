@@ -6,7 +6,6 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { FileUp, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import {
     Card,
     CardContent,
@@ -20,6 +19,7 @@ import { Link } from "@/components/ui/link";
 import NextLink from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
 import { VercelIcon, GitIcon } from "@/components/icons";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function ChatWithFiles() {
     const [files, setFiles] = useState<File[]>([]);
