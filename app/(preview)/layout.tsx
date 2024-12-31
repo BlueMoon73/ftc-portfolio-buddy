@@ -10,7 +10,7 @@ const geist = Geist({ subsets: ["latin"] });
 export const metadata: Metadata = {
   metadataBase: new URL("https://portfoliobuddy.vercel.app/"),
   title: "FTC Portfolio Buddy",
-  description: "Unlock the awards you deserve, for the work you❜ve already done.",
+  description: "Unlock the awards you deserve, for the work you've already done.",
 };
 
 export default function RootLayout({
