@@ -6,6 +6,7 @@ import { z } from "zod";
 import { toast } from "sonner";
 import { FileUp, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import {
     Card,
     CardContent,

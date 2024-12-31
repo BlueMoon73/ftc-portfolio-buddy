@@ -1,7 +1,6 @@
 import { feedbackArraySchema } from "@/lib/schemas";
 import { google } from "@ai-sdk/google";
 import { streamObject } from "ai";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const maxDuration = 60;
 
