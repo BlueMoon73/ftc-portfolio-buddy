@@ -4,58 +4,58 @@
 
 @layer base {
     :root {
-        --background: 230 30% 8%;
-        --foreground: 0 0% 98%;   
-        --card:  230 30% 8%;  
-        --card-foreground: 0 0% 98%;
-        --popover:  230 30% 8%; 
-        --popover-foreground: 0 0% 98%; 
-        --primary: 0 100% 50%; 
-        --primary-foreground: 0 0% 98%; 
-        --secondary: 240 4.8% 95.9%; 
-        --secondary-foreground: 240 5.9% 10%; 
-        --muted: 240 4.8% 95.9%;
-        --muted-foreground: 240 3.8% 46.1%; 
-        --accent: 240 4.8% 95.9%; 
-        --accent-foreground: 240 5.9% 10%;
-        --destructive: 0 84.2% 60.2%; 
-        --destructive-foreground: 0 0% 98%;X
-        --border: 0 100% 50%;   
-        --input: 240 5.9% 90%; 
-        --ring: 240 10% 3.9%;
-          --chart-1: 0 100% 50%;    
-        --chart-2: 0 100% 50%;     
-        --chart-3: 197 37% 24%; 
-        --chart-4: 43 74% 66%; 
-        --chart-5: 27 87% 67%; 
+        --background: 230 30% 8%; /* Darker navy */
+        --foreground: 0 0% 98%;   /* Keep light gray/white */
+        --card:  230 30% 8%;    /* Darker navy */
+        --card-foreground: 0 0% 98%; /* Keep light gray/white */
+        --popover:  230 30% 8%;    /* Darker navy */
+        --popover-foreground: 0 0% 98%; /* Keep light gray/white */
+        --primary: 0 100% 50%;    /* Brighter red */
+        --primary-foreground: 0 0% 98%; /* Keep light gray/white */
+        --secondary: 240 4.8% 95.9%; /* Can remain as it*/
+        --secondary-foreground: 240 5.9% 10%; /* Can remain as it*/
+        --muted: 240 4.8% 95.9%; /* Can remain as it*/
+        --muted-foreground: 240 3.8% 46.1%; /* Can remain as it*/
+        --accent: 240 4.8% 95.9%;  /* Can remain as it*/
+        --accent-foreground: 240 5.9% 10%; /* Can remain as it*/
+        --destructive: 0 84.2% 60.2%; /* Can remain as it*/
+        --destructive-foreground: 0 0% 98%; /* Can remain as it*/
+        --border: 0 100% 50%;      /* Red border */
+        --input: 240 5.9% 90%;   /* Can remain as it*/
+        --ring: 240 10% 3.9%;  /* Can remain as it*/
+          --chart-1: 0 100% 50%;    /* Brighter red */
+        --chart-2: 0 100% 50%;     /* Brighter red */
+        --chart-3: 197 37% 24%; /* Can remain as it*/
+        --chart-4: 43 74% 66%; /* Can remain as it*/
+        --chart-5: 27 87% 67%; /* Can remain as it*/
         --radius: 0.5rem;
     }
     
     .dark {
-        --background: 230 30% 8%;    /* darker navy */
-        --foreground: 0 0% 98%;   
-        --card:  230 30% 8%;   
-         --card-foreground: 0 0% 98%;
-        --popover:  230 30% 8%;  
-        --popover-foreground:  0 0% 98%;
-        --primary: 0 100% 50%;   
-         --primary-foreground: 0 0% 98%; 
-        --secondary: 240 3.7% 15.9%;
-        --secondary-foreground: 0 0% 98%; 
-        --muted: 240 3.7% 15.9%;  
-        --muted-foreground: 240 5% 64.9%; 
-        --accent: 240 3.7% 15.9%; 
-        --accent-foreground: 0 0% 98%; 
-        --destructive: 0 62.8% 30.6%;  
-        --destructive-foreground: 0 0% 98%; 
-        --border: 0 100% 50%;     
-        --input: 240 3.7% 15.9%;
-        --ring: 240 4.9% 83.9%; 
-        --chart-1: 0 100% 50%;  
-        --chart-2: 0 100% 50%;
-        --chart-3: 30 80% 55%;  
-        --chart-4: 280 65% 60%; 
-        --chart-5: 340 75% 55%; 
+        --background: 230 30% 8%;    /* Darker navy */
+        --foreground: 0 0% 98%;   /* Keep light gray/white */
+        --card:  230 30% 8%;     /* Darker navy */
+         --card-foreground: 0 0% 98%;/* Keep light gray/white */
+        --popover:  230 30% 8%;   /* Darker navy */
+        --popover-foreground:  0 0% 98%;/* Keep light gray/white */
+        --primary: 0 100% 50%;   /* Brighter red */
+         --primary-foreground: 0 0% 98%;  /* Keep light gray/white */
+        --secondary: 240 3.7% 15.9%; /* Can remain as it*/
+        --secondary-foreground: 0 0% 98%; /* Can remain as it*/
+        --muted: 240 3.7% 15.9%;  /* Can remain as it*/
+        --muted-foreground: 240 5% 64.9%; /* Can remain as it*/
+        --accent: 240 3.7% 15.9%; /* Can remain as it*/
+        --accent-foreground: 0 0% 98%; /* Can remain as it*/
+        --destructive: 0 62.8% 30.6%;  /* Can remain as it*/
+        --destructive-foreground: 0 0% 98%;  /* Can remain as it*/
+        --border: 0 100% 50%;     /* Red border */
+        --input: 240 3.7% 15.9%; /* Can remain as it*/
+        --ring: 240 4.9% 83.9%;  /* Can remain as it*/
+        --chart-1: 0 100% 50%;   /* Brighter red */
+        --chart-2: 0 100% 50%;  /* Brighter red */
+        --chart-3: 30 80% 55%;  /* Can remain as it*/
+        --chart-4: 280 65% 60%; /* Can remain as it*/
+        --chart-5: 340 75% 55%; /* Can remain as it*/
     }
 }
 @layer base {
