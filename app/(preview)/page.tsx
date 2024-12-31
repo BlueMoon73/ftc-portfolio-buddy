@@ -186,10 +186,7 @@ Unlock the awards you deserve, for the work you❜ve already done.  {"\n"} Devel
                             FTC Portfolio Buddy
                         </CardTitle>
                         <CardDescription className="text-lg">
-                        Unlock the awards you deserve, for the work you❜ve already done. {"\n"} Developed by {" "} 
-                        <Link href="https://linktr.ee/ftc22012">
-                        FTC 22012
-                            </Link>
+                        Unlock the awards you deserve, for the work you❜ve already done. 
                         </CardDescription>
 
                     </div>
