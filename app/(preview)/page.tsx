@@ -115,10 +115,14 @@ export default function ChatWithFiles() {
                   <CardTitle className="text-2xl font-bold">FTC Buddy❜s Feedback</CardTitle>
                   <CardDescription className="text-base">  
 
-Unlock the awards you deserve, for the work you❜ve already done. {"\n"} Developed by {" "} 
+Unlock the awards you deserve, for the work you❜ve already done.  {"\n"} Developed by {" "} 
 <Link href="https://linktr.ee/ftc22012">
         FTC 22012
     </Link>
+
+<div className="mt-2 text-xs text-muted-foreground">
+      <br/>  Disclaimer: This feedback is AI-generated and does not guarantee award eligibility.
+    </div>
 </CardDescription>
 </CardHeader>
                    <CardContent className="space-y-4">
