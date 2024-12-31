@@ -3,13 +3,14 @@ import { Metadata } from "next";
 import { Toaster } from "sonner";
 import { ThemeProvider } from "next-themes";
 import { Geist } from "next/font/google";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 const geist = Geist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ai-sdk-preview-pdf-support.vercel.app"),
-  title: "PDF Support Preview",
-  description: "Experimental preview of PDF support with the AI SDK",
+  metadataBase: new URL("https://portfoliobuddy.vercel.app/"),
+  title: "FTC Portfolio Buddy",
+  description: "Unlock the awards you deserve, for the work you❜ve already done.",
 };
 
 export default function RootLayout({
@@ -24,6 +25,8 @@ export default function RootLayout({
           <Toaster position="top-center" richColors />
           {children}
         </ThemeProvider>
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );

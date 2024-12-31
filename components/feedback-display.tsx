@@ -5,7 +5,7 @@ import { Feedback } from "@/lib/schemas";
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Analytics } from "@vercel/analytics/react"
 interface FeedbackDisplayProps {
     feedback: Feedback[];
     clearPDF: () => void;
@@ -67,6 +67,7 @@ const FeedbackDisplay = ({ feedback, clearPDF }: FeedbackDisplayProps) => {
                     </ScrollArea>
                  </CardContent>
                  <SpeedInsights />
+                 <Analytics />
         </main>
     );
 };
