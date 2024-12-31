@@ -1,5 +1,5 @@
 "use client";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState } from "react";
 import { experimental_useObject } from "ai/react";
 import { feedbackArraySchema, Feedback } from "@/lib/schemas";
