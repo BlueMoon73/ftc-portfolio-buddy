@@ -256,7 +256,7 @@ Unlock the awards you deserve, for the work you❜ve already done.  {"\n"} Devel
               <motion.div
                     className="fixed bottom-6 text-xs text-center w-full"
                 >
-                     Developed by <Link href="monishsaravana.com">Monish Saravana</Link> from Team <Link href="https://linktr.ee/ftc22012">FTC 22012</Link>
+                     Developed by <Link href="https://monishsaravana.com/">Monish Saravana</Link> from Team <Link href="https://linktr.ee/ftc22012">FTC 22012</Link>
                 </motion.div>
         </div>
     );
