@@ -10,34 +10,33 @@ Developed by [FTC 22012](https://linktr.ee/ftc22012)
 
 FTC Portfolio Buddy is a web app designed to provide actionable feedback to FTC (FIRST Tech Challenge) teams on their engineering portfolios. It's meant help teams identify areas of strength and opportunities for improvement, maximizing their chances of winning awards, for the work they've already put in!
 
-## Key Features
-*   **AI-Powered Feedback:** Uses state of the art AI to analyze your portfolio based on the official FTC award rubrics.
-*   **Actionable Insights:** Provides specific and practical suggestions that you can use to improve your portfolio.
-*   **Comprehensive Award Coverage:** Provides feedback tailored to the requirements of the Inspire, Think, Connect, Motivate, Innovate, Control, and Design awards.
-*   **Clear Structure:**  Provides feedback grouped by "Strengths" and "Areas for Improvement", making the advice much more useable.
-*   **Easy to Use:** Simply upload your PDF portfolio, and the application does the rest.
+**Key Features**  
+- 🤖 AI-Powered Feedback using Google Gemini Pro
+- 📝 Actionable insights for 7 FTC awards (Inspire, Think, Connect, Motivate, Innovate, Control, Design)
+- 📄 Clear "Strengths" and "Areas for Improvement" sections
+- 🔄 Iterative improvement workflow
+- 🚀 Easy drag-and-drop interface
+
+---
 
 ## How It Works
-1.  **Upload:** Teams upload their engineering portfolio in PDF format.
-2.  **AI Analysis:** The application sends the portfolio to  Pro, along the AI, along with the FTC award guidelines.
-3.  **Feedback Generation:** Gemini analyzes the portfolio and generates a comprehensive review, formatted into strengths and weaknesses.
-4.  **Review Feedback:** The feedback is then displayed on the website.
-5. **Repeat**: Edit your Portfolio accordingly, and send it in again!  
+1. **Upload** your PDF portfolio
+2. **Analyze** with AI using official FTC rubrics
+3. **Review** structured feedback with priority levels
+4. **Improve** your portfolio and repeat!
 
+---
 ## Tech Stack
-*   **Frontend:**
-    *   [Next.js](https://nextjs.org/) (React framework)
-    *   [Tailwind CSS](https://tailwindcss.com/) (for styling)
-    *  [Framer Motion](https://www.framer.com/motion/) (for animations)
-*   **Backend:**
-    *   [Next.js API Routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes)
-    *   [Vercel AI SDK](https://sdk.vercel.ai/)
-    *   [Google Gemini Pro API](https://ai.google.dev/)
-*   **Data Validation:**
-    *   [Zod](https://zod.dev/)
-* **Deployment:**
-   *   [Vercel](https://vercel.com)
+- **Frontend:** Next.js, Tailwind CSS, Framer Motion
+- **AI Processing:** Vercel AI SDK + Google Gemini Pro
+- **Deployment:** Vercel
+---
+## Disclaimer ⚠️  
 
-## Contact
+#### This tool provides AI-generated suggestions based on portfolio content. Feedback does not guarantee award eligibility and should be used as guidance only. Always consult official FTC documentation and mentors for final decisions.
+---
 
-[FTC 22012](https://linktr.ee/ftc22012) Please feel free to conact us, if you have any questons, we'd be more than happy to help. 
+## Contact  
+
+- **Team Page:** [FTC 22012](https://linktr.ee/ftc22012)  
+- **My Portfolio:** [Monish Saravana](https://monishsaravana.com/)  
