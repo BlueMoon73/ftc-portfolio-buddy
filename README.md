@@ -2,7 +2,7 @@
 
 Unlock the awards you deserve, for the work you❜ve already done. 
 
-Developed by [FTC 22012](https://linktr.ee/ftc22012)
+Developed by [FTC 31000](https://linktr.ee/ftc31000)
 
 ---
 
@@ -38,5 +38,5 @@ FTC Portfolio Buddy is a web app designed to provide actionable feedback to FTC 
 
 ## Contact  
 
-- **Team Page:** [FTC 22012](https://linktr.ee/ftc22012)  
+- **Team Page:** [FTC 31000](https://team31000.org/)  
 - **My Portfolio:** [Monish Saravana](https://monishsaravana.com/)  

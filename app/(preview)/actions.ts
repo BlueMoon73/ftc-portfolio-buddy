@@ -6,7 +6,7 @@ import { z } from "zod";
 
 export const generateQuizTitle = async (file: string) => {
   const result = await generateObject({
-    model: google("gemini-1.5-flash-latest"),
+    model: google("gemini-2.5-flash-exp"),
     schema: z.object({
       title: z
         .string()
