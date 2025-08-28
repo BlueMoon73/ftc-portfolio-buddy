@@ -72,7 +72,7 @@ export async function POST(req: Request) {
     const firstFile = files[0].data;
 
     const result = streamObject({
-         model: google("gemini-2.5-flash-exp"),
+         model: google("gemini-2.5-flash"),
          messages: [
             {
                 role: "system",
